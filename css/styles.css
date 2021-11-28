@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 2.6rem auto 0 auto;
+    font-family: 'Sacramento', cursive, serif;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    color: #66BFBF;
+    font-weight: normal;
+    
+}
+
+h3 {
+    color: #11999E;
+    font-size: 2rem;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    width: 25%;
+    margin: 50px auto;
+    line-height: 2;
+    font-size: 22px;
+}
+
+hr {
+    border-top: dotted 5px #C8C6C6;
+    width: 5%;
+    margin: 100px auto;
+    
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    min-height: 100%;
+    
+}    
+
+.profile-pic {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.skills {
+   margin-top: 50px;
+   line-height: 2;
+}
+
+.skill-row {
+    margin:  50px auto;
+    width: 50%;
+    text-align: left;
+    
+}
+
+.skill-img {
+    width: 25%;
+    float: left;
+}
+
+.skill-img1 {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.skill-img2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.top-cloud{
+    margin-left: 600px;
+    margin-top: 50px;
+    
+}
+
+.bottom-cloud {
+    margin-left: -150px;
+    position: absolute;
+}
+
+/*.skill-desc1 {
+    clear: left;
+    width: 50%;
+}*/
+
+/*.skill-desc2 {
+    clear: right;
+    width: 50%;
+}*/
+
+p.skill-desc1 {
+    width: 90%;
+}
+
+p.skill-desc2 {
+    width: 90%;
+}
+
+.skill-title2 {
+    margin-left: 375px;
+    margin-top: 25px;
+}
+
+.contact-h3 {
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: #66BFBF;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px; 
+    background-image: linear-gradient(#66BFBF, #91A0BE)
+}
+
+.btn:hover {
+    color: black;
+    
+}
+
+.bottom-container {
+    margin-top: 25px;
+    background-color: #66BFBF;
+    padding: 25px;
+}
+
+.contact-h3 {
+    font-size: 22px;
+}
+
+.footer-link {
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 30px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer-link:hover {
+    color: gray;
+}
+
+.copyright {
+    color: white;
+}
