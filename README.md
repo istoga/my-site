@@ -3,9 +3,9 @@ This is an example profile project made during webdev bootcamp. I have made it a
 
 ###Built With
 Since this is one of the early projects, I am using a very streamlined stack.
-*HTML
-*CSS
-*Flaticons
+-HTML
+-CSS
+-Flaticons
 
 ##License
 Distributed under the MIT License.
