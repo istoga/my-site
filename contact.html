@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="preconnect" href="https:///fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <title>Contact Form</title>
+</head>
+<body>
+
+
+    <header>
+
+        <h1>Contact Form</h1>
+
+            <p>Fill out the form below and someone will contact you within 24 hours.</p>
+
+    </header>
+
+    
+
+
+    <form action="" method="post" id="prequal" autocomplete="on">
+
+        <hr>
+
+        <h2>Personal Information</h2>
+
+        <label for="first-name">First Name<input type="text" name="first-name" id="first-name" placeholder="Enter your first name" required>
+        </label>
+
+        <label for="last-name">Last Name<input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required>
+        </label>
+
+        <label for="email">Email<input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </label>
+
+        <label for="number">Phone Number<input type="number" name="number" id="number" placeholder="Enter your phone number" required>
+        </label>
+    
+
+        <!-- <hr> -->
+
+        <h2>Business Information</h2>
+
+        <label for="co-name">Company Name<input type="text" name="co-name" id="co-name" placeholder="Enter your company name" required></label>
+
+        <label for="url">Current Website<input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required></label>
+
+        <label for="services">What does your company do? What services and/or products do you offer?<textarea name="services" id="services" cols="25" rows="5" placeholder="Enter your business services or products" required></textarea></label>
+
+        <label for="years">How many years have you been in business?<input type="number" name="years" id="years" required></label>
+        
+        <label for="budget">What is your budget range?</label>
+
+        <select name="budget" id="budget" required>
+
+            <option value="low">$1000-$2500</option>
+
+            <option value="middle">$2500-$5000</option>
+
+            <option value="high">$5000+</option>
+
+        </select>
+
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-#About the project
+About the project
 This is an example profile project made during webdev bootcamp. I have made it a bit more personal and tailored it to my liking while attempting to keep the essence of the initial project.
 
 ###Built With

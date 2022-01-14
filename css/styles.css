@@ -125,6 +125,17 @@ p.skill-desc2 {
     margin-top: 25px;
 }
 
+.projects p {
+    width: 50%;
+}
+.contact-form {
+    /* margin: 10px; */
+    /* padding: 5px; */
+}
+.contact-form a:link {
+    text-decoration: none;
+}
+
 .contact-h3 {
     margin-top: 50px;
 }
