@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    /* background-image: linear gradient(); */
+    /* background: rgb(217,214,199);
+    background: linear-gradient(90deg, rgba(217,214,199,1) 28%, rgba(140,106,126,1) 100%); */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+/* Nav Bar */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+.nav-container {
+    clear: both;
+    overflow: auto;
+    background: #FFCC70;
+}
+
+.logo {
+    float: left;
+    padding: 0 10px;
+}
+
+nav {
+    float: right;
+    align-content: center;
+    
+}
+
+nav > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+nav li {
+    display: inline-flex;
+    padding: 15px;
+    height: 107px; 
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Section-Title */
+
+h1 {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+input[type=email] {
+    width: 20vw;
+    height: 2vw;
+    border-radius: 0.25rem;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffd000;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+ button:hover {
+     background-color: #000;
+     color: #ffd000;
+ }
+
+.title {
+    padding: 100px 0 0;
+}
+
+/* Section-Features */
+
+.features {
+    text-align: left;
+    padding: 75px 250px;
+    font-size: 1rem;
+    
+}
+
+i img {
+    height: 50px;
+    width: 50px;
+}
+
+.features li {
+    display: inline-flex;
+    padding: 25px;
+    
+}
+
+.desc {
+    padding: 0 25px;
+}
+
+.features p {
+    /* background: purple; */
+    font-size: 0.9rem;
+}
+
+/* Section-Where to Buy */
+
+.buy {
+    padding: 25px;
+}
+.buy li {
+    padding: 25px;
+}
+
+
+
+/* Section-Pricing */
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.product {
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    margin: 50px auto;
+}
+
+.level {
+    /* background-color: lightgray; */
+    padding: 10px;
+    border-radius: 0.25rem 0.25rem 0rem 0rem;
+}
+
+#pricing h2{
+    padding: 15px;
+}
+
+#pricing button {
+    background-color: #ffc400;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+#pricing button:hover {
+    background-color: #000;
+     color: #ffd000;
+}
+
+/* Footer */
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+footer p {
+    padding: 15px 5px;
+}
+
+/* Media Queries */
+
+@media (max-width: 870px) {
+    body {
+        
+        text-align: center;
+        width: 100%;
+}
+    .nav-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(217,214,199);
+        width: 100%;
+    }
+
+   .title {
+       padding-top: 200px;
+       margin: 0 auto;
+   }
+
+   input[type=email] {
+       width: 30vw;
+       height: 3.5vw;
+   }
+
+}
+
+@media (max-width: 600px) {
+    .title h1 {
+        font-size: 1.25rem;
+        margin-bottom: 25px;
+        /* text-align: center; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #pricing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        padding: 25px;
+    }
+
+    .level {
+        background-color: transparent;
+    }
+
+    #pricing ol {
+        font-size: 0.9rem;
+        padding: 25px;
+    }
+
+    .product button {
+        text-align: center;
+    }
+    
+}
